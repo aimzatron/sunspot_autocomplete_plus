@@ -3,16 +3,16 @@ $:.push File.expand_path("../lib", __FILE__)
 require "sunspot_autocomplete/version"
 
 Gem::Specification.new do |s|
-  s.name        = "sunspot_autocomplete"
-  s.version     = SunspotAutocomplete::VERSION
+  s.name        = "sunspot_autocomplete_plus"
+  s.version     = SunspotAutocompletePlus::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["DevInterface"]
-  s.email       = ["stefano.mancini@devinterface.com"]
+  s.authors     = ["Aimzatron"]
+  s.email       = ["fritz.aimeej@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{sunspot autocomplete capability}
-  s.description = %q{sunspot autocomplete capability}
+  s.summary     = %q{sunspot autocomplete capability - one text field across multiple models}
+  s.description = %q{sunspot autocomplete capability - one text field across multiple models}
 
-  s.rubyforge_project = "sunspot_autocomplete"
+  s.rubyforge_project = "sunspot_autocomplete_plus"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
