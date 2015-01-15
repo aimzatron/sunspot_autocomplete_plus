@@ -1,23 +1,27 @@
-= Sunspot Autocomplete
+Sunspot Autocomplete Plus
+=========================
 
 Sunspot Autocomplete is a Rails plugin that lets you use Solr and Sunspot for handy autocompletion of your html text inputs.
 
-=== Features:
+Features:
+=========
 
 * Autocomplete: Typing "clo" will yield results that start with "clo", like "cloudy with a chance of meatballs".
 * Autosuggest: Typing "clo" will yield results that contain (or start with) "clo", like "cloudy with a chance of meatballs" and "Jumping like Clowns".
 * Both features are case insenitive.
 * A CSS based view. You can override some style rules to force your look and feel.
 
-== Prerequisites
+Prerequisites
+=============
 
 You should have solr, sunspot and sunspot_rails ON and running.
 
 http://outoftime.github.com/sunspot
 
-== Installation
+Installation
+============
 
-gem "sunspot_autocomplete", ">= 0.0.3", :git => "git@github.com:xponrails/sunspot_autocomplete.git"
+gem "sunspot_autocomplete", ">= 0.0.3", :git => "git@github.com:aimzatron/sunspot_autocomplete_plus.git"
 
 Copy the gem's assets to your assets directory.
 
