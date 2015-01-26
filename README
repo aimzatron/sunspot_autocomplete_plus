@@ -1,4 +1,4 @@
-Sunspot Autocomplete Plus
+AYIIIIISunspot Autocomplete Plus
 =========================
 
 Sunspot Autocomplete is a ruby gem that allows you to create autocomplete and autosuggest text fields with multiple models.
@@ -91,4 +91,4 @@ And to create a text field with autosuggest:
 
 You can view documentation for more advanced features of the helpers.
 
-  
+
